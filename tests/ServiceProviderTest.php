@@ -9,5 +9,11 @@ namespace AvtoDev\HealthChecks\Tests;
  */
 class ServiceProviderTest extends AbstractTestCase
 {
-    //
+    /**
+     * @return void
+     */
+    public function test(): void
+    {
+        $this->assertTrue(true);
+    }
 }
